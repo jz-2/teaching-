@@ -1,0 +1,32 @@
+site_name: Teachers As They Are
+site_authors:
+
+nav:
+  - About Us: index.md
+  - A Bit of Humour: src/A Bit of Humour.md
+
+      
+
+theme:
+  name: material
+  logo: 'src/img/logo.png'
+  feature:
+    tabs: false
+  language: 'en'
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - pymdownx.extra
+  - pymdownx.snippets:
+      base_path: docs/src
+    
+plugins:
+  - search
+
+extra_css:
+  - 'stylesheets/extra-page-content.css'
+  - 'https://use.fontawesome.com/releases/v5.7.0/css/all.css'
+  - 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css'
+  

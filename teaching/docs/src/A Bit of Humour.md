@@ -1,0 +1,1 @@
+A bit of humour in class is likely to serve for good.
